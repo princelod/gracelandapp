@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+}
+.top{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background: darkblue;
+    padding: 1rem 2rem;
+    color: white;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(43, 106, 43);
+    padding: 1rem 3rem;
+}
+.logo{
+    width: 14rem;
+}
+.nav-links{
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: green;
+}
+marquee{
+    color: darkblue;
+    background: white;
+    padding: 2px;
+    font-weight: 600;
+}
+.marquee-link{
+    font-style: italic;
+    color: rgb(14, 83, 107);
+}
+.first-section{
+    background: rgb(43, 106, 43);
+}
+.Girls{
+    width: 100%;
+    padding: 7rem 1rem;
+}
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.flex-boy{
+
+}
+.Boy{
+    width: 60%;
+    height: 80%;
+}
+.flex-text{
+    
+}
+.text{
+    width: 100%;
+}
+footer{
+    background: rgb(9, 9, 193);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    gap: 3rem;
+    padding: 2rem;
+}
+.footer-h1{
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+.last-foot{
+    font-weight: 400;
+    font-size: 8px;
+    background: rgb(35, 35, 165);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy{
+    display: flex;
+}
